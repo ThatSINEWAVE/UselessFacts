@@ -1,0 +1,96 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #ffcc00;
+}
+
+/* Fact Box */
+#fact-box {
+    background: #252525;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 8px rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+#fact-text {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+#fact-source {
+    font-style: italic;
+    color: #aaaaaa;
+    font-size: 0.9em;
+}
+
+#fact-link {
+    display: block;
+    margin-top: 10px;
+    color: #ffcc00;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+#fact-link:hover {
+    text-decoration: underline;
+}
+
+/* Hidden Fact ID */
+#fact-id {
+    font-size: 0.8em;
+    color: #555;
+    margin-top: 15px;
+    opacity: 0.3;
+    user-select: none;
+}
+
+/* Button */
+button {
+    background: linear-gradient(135deg, #ffcc00, #ff8800);
+    color: #121212;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff8800, #ff5500);
+    transform: scale(1.05);
+}
